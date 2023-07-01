@@ -1,0 +1,15 @@
+/** @format */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+	--bodyColor: "#F1F5F9";
+}
+body {
+	background-color: var(--bodyColor);
+}
+.input-group {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
