@@ -4,7 +4,9 @@ import { Fragment } from "react"
 import { Disclosure, Menu, Transition } from "@headlessui/react"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
 import noti from "../../asset/notification-nav.svg"
-import user from "../../asset/Frame 1462.png"
+import user from "../../asset/userimg.svg"
+import dropdownIco from "../../asset/keyboard_arrow_down.svg"
+
 const navigation = [
 	{ name: "Dashboard", href: "#", current: true },
 	{ name: "Team", href: "#", current: false },
@@ -49,8 +51,10 @@ Mulish text-2xl'>
 
 								{/* Profile dropdown */}
 
-								<div>
-									<img src={user} alt='' />
+								<div className='flex items-center gap-1'>
+									<img src={user} alt='user' />
+									<p className='text-[#64748B] text-sm'>kolade</p>
+									<img src={dropdownIco} alt='user' />
 								</div>
 								<Transition
 									as={Fragment}
