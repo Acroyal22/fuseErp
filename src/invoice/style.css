@@ -1,0 +1,46 @@
+.label {
+    pointer-events: none;
+  }
+  
+  .btn-hover:hover {
+    background-color: #2e68fb94;
+  }
+  .DatePicker::after,
+  .input::after,
+  .select::after {
+    content: "<>";
+  }
+  .DatePicker.focus,
+  .input:focus,
+  .select:focus {
+    border: 1px solid #2e68fb;
+  }
+  
+  .select {
+    cursor: pointer;
+  }
+  .DatePicker:focus + .label,
+  .input:focus + .label,
+  .select:focus + .label {
+    transform: translateY(-12px);
+    transition: 100ms;
+    background-color: white;
+  }
+  
+  .DatePicker:not(:placeholder-shown) + label {
+    transform: translateY(-12px);
+    background-color: white;
+  }
+  .input:not(:placeholder-shown) + label {
+    transform: translateY(-12px);
+    background-color: white;
+  }
+  
+  .input:placeholder-shown + label {
+    transition: 100ms;
+    background-color: white;
+  }
+  .DatePicker:placeholder-shown + label {
+    transition: 100ms;
+    background-color: white;
+  }

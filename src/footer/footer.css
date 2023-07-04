@@ -1,0 +1,12 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    height: 100px; /* Adjust the value according to your footer height */
+    background-color: #FFFFFF; /* Adjust the background color as needed */
+    /* Add other styles for the footer */
+  }
+  .h-screen {
+    min-height: calc(100vh - 80px); /* Adjust the value 80px according to your footer height */
+    overflow-y: auto;
+  }
