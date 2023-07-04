@@ -315,8 +315,8 @@ const Invoice = () => {
 							</span>
 						</div>
 
-						<div className='flex justify-center ml-20 mt-5 '>
-							<div className='mb-2 ml-40 '>
+						<div className='flex justify-center ml-[12rem] gap-2 mt-5 '>
+							<div className='mb-2 '>
 								<label className='flex items-center'>
 									<input
 										type='checkbox'
@@ -325,12 +325,12 @@ const Invoice = () => {
 										onChange={handleOptionChange}
 										className=' bg-[#F8FAFC] form-checkbox p-5 h-4 w-4 text-indigo-600'
 									/>
-									<span className=' ml-3 font-normal text-[#475569] font-Mulishml-2'>
+									<span className=' ml-2 font-normal text-[#475569] font-Mulishml-2'>
 										Value Added Tax (VAT)
 									</span>
 								</label>
 							</div>
-							<div className='mb-2  '>
+							<div className='mb-2'>
 								<label className='flex items-center'>
 									<input
 										type='checkbox'
@@ -339,7 +339,7 @@ const Invoice = () => {
 										onChange={handleOptionChange}
 										className='bg-[#F8FAFC]  form-checkbox p-5 h-4 w-4 text-indigo-600'
 									/>
-									<span className='ml-3 text-gray-700'>
+									<span className='ml-2 text-gray-700'>
 										Withholding Tax (WTH)
 									</span>
 								</label>
