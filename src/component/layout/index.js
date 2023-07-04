@@ -10,9 +10,7 @@ function Layout({ children }) {
 				<SideBar />
 				<div className='flex relative w-full'>
 					<Header />
-					<div className='absolute w-full top-24 '>
-						{children}
-					</div>
+					<div className='absolute w-full top-24 '>{children}</div>
 				</div>
 			</div>
 		</Container>
