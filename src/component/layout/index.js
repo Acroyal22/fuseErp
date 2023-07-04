@@ -5,7 +5,7 @@ import Container from "./Container"
 
 function Layout({ children }) {
 	return (
-		<Container>
+	
 			<div className='flex w-full'>
 				<SideBar />
 				<div className='flex relative w-full'>
@@ -13,7 +13,7 @@ function Layout({ children }) {
 					<div className='absolute w-full top-24 '>{children}</div>
 				</div>
 			</div>
-		</Container>
+	
 	)
 }
 
